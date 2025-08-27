@@ -123,20 +123,6 @@ batch_results = classifier.predict_batch(sequences, binding_sites_list)
 Custom training scripts will be added in the next release.  
 For now, you can fine-tune on your own dataset using `classifier.train(...)` (WIP).
 
----
-
-## 📚 Citation
-
-If you use this tool in your research, please cite:
-
-```bibtex
-@software{protein_binding_classifier,
-  title={Protein Binding Site Classifier: ESM2-based prediction of binding site types},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/protein-binding-classifier}
-}
-```
 
 ---
 
