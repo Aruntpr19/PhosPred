@@ -1,14 +1,14 @@
-# PhosPred / AnionX
+# PhosPred
 
-**PhosPred (AnionX)** is a deep learning tool for predicting **anion binding sites** in proteins.  
-It uses state-of-the-art protein language models (like ESM2) to classify binding sites as one of five anions: phosphate, sulfate, chloride, nitrate, or carbonate.
+**PhosPred** is a deep learning tool for predicting **anion binding sites** in proteins.  
+It uses state-of-the-art protein language models (ESM2) to classify binding sites as one of five anions: phosphate, sulfate, chloride, nitrate, or carbonate.
 
 ---
 
 ## 🚀 Features
 
-- **ESM2 Integration** – Leverages Meta's ESM2 protein language model for high-quality embeddings
-- **Multi-class Classification** – Predicts 5 binding site types: phosphate, sulfate, chloride, nitrate, carbonate
+- **ESM2 Integration** – Leverages ESM2 protein language model for high-quality sequence embeddings
+- **Multi-class Classification** – Predicts anion binding site: phosphate, sulfate, chloride, nitrate, carbonate
 - **Flexible Input** – Accepts protein sequences and binding site residue indices
 - **GPU Support** – Automatically detects and utilizes available GPU
 - **Easy Integration** – Use as a Python library or a command-line tool
@@ -37,7 +37,7 @@ pip install protein-binding-classifier
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/protein-binding-classifier.git
+git clone https://github.com/Aruntpr19/PhosPred.git
 cd protein-binding-classifier
 pip install -e .
 ```
